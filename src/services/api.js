@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://corebackendgp.onrender.com',
+    baseURL: 'https://corebackendgp.onrender.com/api',
 });
 
 api.interceptors.request.use((config) => {
