@@ -1,0 +1,18 @@
+.table-container {
+    overflow-x: auto;
+    background-color: white;
+    padding: 24px;
+    border-radius: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 14px;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: left;
+}
