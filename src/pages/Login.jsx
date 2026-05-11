@@ -49,7 +49,7 @@ const Login = () => {
                 }
             );
 
-            // guardar JWT
+            // guardar token
             localStorage.setItem(
                 'token',
                 response.data.token
@@ -67,7 +67,7 @@ const Login = () => {
                 JSON.stringify(response.data)
             );
 
-            // validar admin
+
             if (response.data.rol === 'ADMIN') {
 
                 navigate('/admin');

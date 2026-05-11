@@ -62,7 +62,7 @@ const UserForm = () => {
                 'Usuario registrado correctamente'
             );
 
-            // limpiar formulario
+
             setNombreCompleto('');
             setEmail('');
             setPassword('');

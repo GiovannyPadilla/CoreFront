@@ -27,13 +27,13 @@ function App() {
     return (
         <BrowserRouter>
             <Routes>
-                {/* Ruta pública */}
+
                 <Route path="/login" element={<Login />} />
 
-                {/* Ruta inicial */}
+
                 <Route path="/" element={<Navigate to="/login" replace />} />
 
-                {/* Rutas privadas admin */}
+
                 <Route
                     path="/admin"
                     element={
